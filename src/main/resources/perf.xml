@@ -1,0 +1,46 @@
+<?Performance Schema Version 2.1?>
+<ns1:Performance xmlns:ns0="urn:my:com:perf" xmlns:ns1="urn:my:com:perf:inv:Performance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:my:com:perf:inv:Performance Performance.xsd">
+    <ns0:PerformanceHeader>
+        <ns0:PerformanceNumber>P1906-012-014-345678</ns0:PerformanceNumber>
+        <ns0:ReferencePerformanceNumber>P1905-012-014-123456</ns0:ReferencePerformanceNumber>
+        <ns0:OrderNumber>O1906-012-014-234567</ns0:OrderNumber>
+        <ns0:AgencyTransactionID>ID agency provides for transaction</ns0:AgencyTransactionID>
+        <ns0:PerformanceDate>2019-06-05T00:00:00.000-04:00</ns0:PerformanceDate>
+        <ns0:TransactionDate>2019-06-06T07:23:31.345-04:00</ns0:TransactionDate>
+        <ns0:AccountingPeriod>201909</ns0:AccountingPeriod>
+        <ns0:Comments>Received in full</ns0:Comments>
+        <ns0:PreparedByFullName>Prepared By Name</ns0:PreparedByFullName>
+        <ns0:PreparedByPhoneNumber>Prepared By Phone</ns0:PreparedByPhoneNumber>
+        <ns0:PreparedByEmailAddressText>Prepared By E-Mail address</ns0:PreparedByEmailAddressText>
+        <ns0:PerformanceType>050</ns0:PerformanceType>
+        <ns0:BuySellIndicator>R</ns0:BuySellIndicator>
+        <ns0:PerformanceDetails>
+            <ns0:PerformanceDetail>
+                <ns0:PerformanceDetailNumber>1</ns0:PerformanceDetailNumber>
+                <ns0:ReferenceDetailNumber>2</ns0:ReferenceDetailNumber>
+                <ns0:LineNumber>3</ns0:LineNumber>
+                <ns0:OrderScheduleNumber>1</ns0:OrderScheduleNumber>
+                <ns0:FinalIndicator>F</ns0:FinalIndicator>
+                <ns0:Quantity>10</ns0:Quantity>
+                <ns0:UnitofMeasure>EA</ns0:UnitofMeasure>
+                <ns0:UnitofMeasureDescription>Each</ns0:UnitofMeasureDescription>
+                <ns0:UnitPriceAmount>500.00</ns0:UnitPriceAmount>
+            </ns0:PerformanceDetail>
+            <ns0:PerformanceDetail>
+                <ns0:PerformanceDetailNumber>2</ns0:PerformanceDetailNumber>
+                <ns0:ReferenceDetailNumber>1</ns0:ReferenceDetailNumber>
+                <ns0:LineNumber>3</ns0:LineNumber>
+                <ns0:OrderScheduleNumber>2</ns0:OrderScheduleNumber>
+                <ns0:FinalIndicator>F</ns0:FinalIndicator>
+                <ns0:Quantity>15</ns0:Quantity>
+                <ns0:UnitofMeasure>EA</ns0:UnitofMeasure>
+                <ns0:UnitofMeasureDescription>Each</ns0:UnitofMeasureDescription>
+                <ns0:UnitPriceAmount>500.00</ns0:UnitPriceAmount>
+            </ns0:PerformanceDetail>
+        </ns0:PerformanceDetails>
+        <ns0:DisbursingOfficeSymbol>DOSym</ns0:DisbursingOfficeSymbol>
+        <ns0:DocumentReferenceNumber>DocRefNm</ns0:DocumentReferenceNumber>
+        <ns0:TransferDate>2019-06-05T07:20:35.456-04:00</ns0:TransferDate>
+        <ns0:DocumentStatusCode>INF</ns0:DocumentStatusCode>
+    </ns0:PerformanceHeader>
+</ns1:Performance>
